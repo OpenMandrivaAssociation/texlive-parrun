@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/parrun
+# catalog-date 2009-09-20 00:02:29 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-parrun
 Version:	20090920
 Release:	1
@@ -43,6 +49,7 @@ parallel on the same page, one above the other.
 #- source
 %doc %{_texmfdistdir}/source/latex/parrun/parrun.dtx
 %doc %{_texmfdistdir}/source/latex/parrun/parrun.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ parallel on the same page, one above the other.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
