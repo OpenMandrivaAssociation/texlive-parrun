@@ -49,3 +49,17 @@ parallel on the same page, one above the other.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090920-2
++ Revision: 754646
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090920-1
++ Revision: 719198
+- texlive-parrun
+- texlive-parrun
+- texlive-parrun
+- texlive-parrun
+
