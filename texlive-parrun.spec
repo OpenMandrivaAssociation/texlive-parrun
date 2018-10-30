@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-parrun
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Typesets (two) streams of text running parallel
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parrun
